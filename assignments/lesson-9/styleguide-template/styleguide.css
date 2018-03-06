@@ -1,0 +1,267 @@
+/* --------------------------------------------- */
+/* --------- Branding: Color Palette ----------- */
+/* --------------------------------------------- */
+/* These are the colors of the boxes under the Branding section */
+#swatch1{
+	background-color: #c57968;
+}	
+#swatch2{
+	background-color: #e2cca6;
+}	
+#swatch3{
+	background-color: #7e827a;
+}	
+#swatch4{
+	background-color: #2f343b;
+}		
+
+/* ----------------------------------------------------- */
+/* --------- Typography: Heading & Body Copy ----------- */
+/* ----------------------------------------------------- */
+/* These are the font families of all the headings and body copy */
+
+body{
+	font-family: 'Kohinoor Devanagari', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Stempel Garamond LT Std', serif;
+}
+
+
+/* -------------------------------------------------- */
+/* --------- Navigation: Main & Secondary ----------- */
+/* -------------------------------------------------- */
+/* Colors, style, floating, shapes, etc of main & secondary navs */
+
+/* Main Navigation Style */
+#mainnav{
+	
+}
+#mainnav ul{ 
+    background-color: #2f343b;
+
+}
+#mainnav li{
+    display: inline;
+    color: #e2cca6;
+    margin: 35px;
+
+}
+#mainnav a:link{
+	color: #ffffff;
+    text-decoration: none;
+	/* other styles */
+}
+#mainnav a:visited{
+	color: #ffffff;
+	/* other styles */
+}
+#mainnav a:hover{
+	color: #c57968;
+	/* other styles */
+}
+#mainnav a:active{
+	color: #e2cca6;
+	/* other styles */
+}
+
+
+/* Secondary Navigation Style */
+#secondnav{
+
+}
+#secondnav ul{
+    background-color: #2f343b;
+
+}
+#secondnav li{ display: inline;
+    margin: 10px;
+
+}
+#secondnav a:link{
+	color: #7e827a;
+    text-decoration: none;
+	/* other styles */
+}
+#secondnav a:visited{
+	color: #ffffff;
+	/* other styles */
+}
+#maisecondnavnnav a:hover{
+	color: #c57968;
+	/* other styles */
+}
+#secondnav a:active{
+	color: #e2cca6;
+	/* other styles */
+}
+
+
+
+
+/* ----------------------------------- */
+/* --------- HTML Elements ----------- */
+/* ----------------------------------- */
+/* Styling for all HTML Elements */
+
+/* True for all headings */
+h1, h2, h3 ,h4, h5, h6{
+	color: #c57968;
+}
+
+
+/* Style for individual headings */
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+h5{
+
+}
+
+h6{
+
+}
+
+
+/* List Styles */
+ul{
+}
+ul li{
+color: #2f343b;
+}
+
+ol{
+}
+ol li{
+color: #2f343b;
+}
+
+
+/* Non-Navigational Link Styles */
+/* This is for all default links on your page */
+a:link{color: #7e827a;
+
+}
+a:visited{ 
+color: #7e827a;
+}
+a:hover{
+    color: #c57968;
+
+}
+a:active{
+    color: #7e827a;
+
+}
+
+/* This is for secondary link styles (possibly in your footer, etc) */
+.linkstyle2 a:link{
+color: #7e827a;
+}
+.linkstyle2 a:visited{
+color: #7e827a;
+}
+.linkstyle2 a:hover{
+color: #c57968;
+}
+.linkstyle2 a:active{
+color: #7e827a;
+}
+
+
+/* Paragraph Styles */
+p{
+	color: #2f343b;
+	/* Other paragraph styles */
+}
+
+
+/* Figure and Figcaption Styles */
+figure{
+
+}
+figure img{
+
+}
+figcaption{
+    color: #c57968;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------- */
+/* --------- Style Guide CSS ----------- */
+/* ------------------------------------- */
+/* The following CSS is used for the styling of the structure of the Style Guide itself */
+body{
+	width: 700px;
+	margin: 10px auto;
+	border: 1px solid #777;
+	padding: 20px;
+}
+
+.styleguide{
+	font-family: "Courier New", Courier, monospace;
+}
+h1.styleguide, h2.styleguide, h3.styleguide, h4.styleguide, h5.styleguide, h6.styleguide{
+	color: #777;
+	font-family: "Courier New", Courier, monospace;
+}
+h2.styleguide{
+    background-color: #777;
+    border-radius: 15px;
+    padding: 15px;
+    margin-left: -15px;
+    color: white;
+}
+p.styleguide{
+	color: #777;
+	font-family: "Courier New", Courier, monospace;
+}
+
+section{
+    margin-top: -10px;
+    margin-bottom: 70px; 
+}
+.colorgroup{
+    float: left;
+    width: 170px;
+}
+.colorgroup h4{
+	font-size: .9em;
+}
+.colorgroup p{
+    font-size: .8em;
+}
+.clear{
+    clear: both;
+}
+.swatches{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
