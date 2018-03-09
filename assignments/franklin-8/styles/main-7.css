@@ -61,28 +61,11 @@ main h2 {}
 main figure { margin: 0 0 .2rem 2%; width:96%; }
 main figure img { width: 100%; }
 
-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px;
-}
-.highlow {
-    background-color: #bedbd8;
-    text-align: center;
-}
-.conditions {
-    background-color: #bedbd8;
-    text-align: center;
-}
-.current {
-    background-color: #96c3be;
-    text-align: center;
-}
-.forecast {
-    background-color: #ffd3ab;
-    padding-left: 25%;
-    font-size: 24px;
-}
+section {}
+.highlow {}
+.conditions {}
+.current {}
+.forecast {}
 h3, h2 {
     text-align: center;
 }

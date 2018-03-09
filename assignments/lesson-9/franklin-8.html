@@ -44,17 +44,18 @@
     <section>
             
             <div class="highlow">
-                <h3>Weather Summary</h3>
-                <p>High: 90°F</p>  
-                <p>Low: 66°F</p>  
+                <h1>Forecast</h1>
+        <h2>Weather conditions for <span id="place">City, State</span></h2>
+                <p>High: <span id="highTemp">90</span>&deg;</p>  
+                <p>Low: <span id="lowTemp">20</span>&deg;</p>  
             </div>
         <div class="current">
-                <h3>Sunny</h3>
-                <img src="images/sunny.png" alt="Sunny" width="210" height="200">
+                <p>Current Temperature is <span id="currentTemp">120</span>&deg;</p>
+                <img src="" alt="current weather" id="weather_icon">
         </div>   
       <div class="conditions">
-            <p>Precipitation: 0%</p>  
-            <p>Wind Speed: 5 mph SW</p>  
+            <p>Precipitation: <span id="rainFall">0</span></p>  
+            <p>Wind Speed: <span id="windSpeed">5</span> mph</p>  
         </div>           
         </section>
         
@@ -64,7 +65,7 @@
 	           <thead>
                      <tr>
                         <th>Day 1</th>
-                         <th>Day 2</th>
+                        <th>Day 2</th>
                         <th>Day 3</th>
                         <th>Day 4</th>
                         <th>Day 5</th>
@@ -111,6 +112,7 @@
 
             <script src="scripts/hamburger.js"></script>
             <script src="scripts/currentdate.js"></script>
+            <script src="scripts/scripts.js"></script>
 
 </body>
 </html>
