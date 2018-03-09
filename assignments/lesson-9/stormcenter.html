@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Storm Center</title>
+    <meta name="author" content="Chelsea Thompson">
+    <meta name="description" content="weather for the town of Franklin">   
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">  
+    <link href="styles/normalize.css" rel="stylesheet"> 
+    <link href="styles/main-7.css" rel="stylesheet">    
+    <link href="styles/medium-7.css" rel="stylesheet">  
+    <link href="styles/large-7.css" rel="stylesheet">
+    </head>
+<body>
+    
+    <header>
+        <img src="images/logotrans.png" alt="The site logo" width="258" height="180">
+        <h1>Weather Daily</h1>
+        <div class="subheading">Your Weather. Your Way.</div>
+        </header>
+
+  <!-- site navigation use placeholder references -->
+    <nav>
+            <ul>
+    	       <li><a href="#">Home</a></li>
+    	       <li class="active"><a href="#">Franklin</a></li>
+    	       <li><a href="#">Greenville</a></li>
+    	       <li><a href="#">Springfield</a></li>
+    	       <li><a href="#">Storm Center</a></li>
+    	       <li><a href="gallery-7.html">Gallery</a></li>
+                </ul>
+        <button onclick="toggleHam()">&#9776;</button>
+            </nav>
+<div id="form">
+        <h1>Storm Center Form</h1>
+    
+    <form action="/action_page.php" method="post" enctype="multipart/form-data" name="attend" id="stormform">
+        
+        <fieldset>
+            <legend><span>Personal Information</span></legend>
+            <label><span>Full Name: </span><input name="fullname" type="text" value="" placeholder="Full Name" pattern="[a-zA-Z -._]{5,99}" required></label><br>
+            <label><span>email:</span><input name="fullname" type="email" value="" placeholder="email@example.com" required></label><br>
+            <label><span>Phone: </span><input name="phone" type="tel" value="" placeholder="1232334565" pattern="[0-9]{10,20}" required></label><br>
+            <label><span>Zip Code :</span><input name="zipcode" type="number" value="" placeholder="10459" required></label>
+            </fieldset>
+        
+        <fieldset>
+            <legend><span>Storm Information</span></legend>
+            <label>Storm Date: <input name="date" type=date></label><br>
+            <label>Storm Type: <input name="stormtype" type="text" list="typeofstorm">
+                <datalist id="typeofstorm">
+                    <option value="Flash Flood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Thunderstorm"></option>
+                    <option value="Tornado"></option>
+                </datalist> 
+            </label><br>
+            <label>Storm Severity: (1-10) Ten being the worst <br> <strong>1</strong><input type="range" name="points" min="1" max="10"><strong>10</strong>
+            </label><br>
+             <label>Storm Region:
+                <select id="stormregion">
+                    <option value="Select region..." disabled>Select Region</option>
+                    <option value="Franklin">Franklin</option>
+                    <option value="Greenville">Greenville</option>
+                    <option value="Springfield">Springfield</option>
+                </select> <br>
+            </label>
+            <label>User in-danger level <br>
+            <input type="radio" name="yes" value="yes"> Yes<br>
+            <input type="radio" name="maybe" value="maybe"> Maybe<br>
+            <input type="radio" name="no" value="no"> No<br>
+            </label>
+            <label>Additional information or comments: <br>
+                <textarea rows="4" cols="50"> 
+                </textarea></label>
+            </fieldset>
+        
+        <input type="submit" value="submit" class="submitbtn">
+        
+        <input type="hidden" value="Storm Form" name="subject">
+        <input name="redirect" type="hidden" value="thanks.html">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </form>    
+  </div>  
+  <footer>
+        <aside>
+            Contact information placeholder
+        </aside>
+        <p class="footer-bar">&copy;2017 All Rights Reserved | Site Title | <span id="currentdate">Current Date Placeholder</span></p>
+        </footer>
+
+            <script src="scripts/hamburger.js"></script>
+            <script src="scripts/currentdate.js"></script>
+
+</body>
+</html>

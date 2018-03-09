@@ -1,0 +1,155 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 16px;
+  /* Declare the base font-family - from google font api or other */
+}
+
+header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
+  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+}
+
+header {
+    display: flex;
+    margin: 0 auto;
+    min-width: 1010px;
+    background-color: #ffeddd;
+    width: 100%;
+}
+header h1 {
+    font-size: 55px;
+    padding-left: 20px;
+    color: #358078;
+    padding-top: 15px;
+    
+}
+header img {
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+header .subheading {
+    margin-top: 120px;
+    margin-left: -200px;
+    font-size:20px;
+    color: #6fa8a2;
+}
+
+nav {
+}
+nav button {}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #ffd3ab;
+    height: 40px;
+    width: 100%;
+}
+nav ul li {margin: 0 auto;}
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav ul li.active a {}
+nav ul li a:hover {}
+
+main {
+    
+}
+main h2 {}
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure img { width: 100%; }
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+}
+.highlow {
+    background-color: #bedbd8;
+    text-align: center;
+}
+.conditions {
+    background-color: #bedbd8;
+    text-align: center;
+}
+.current {
+    background-color: #96c3be;
+    text-align: center;
+}
+.forecast {
+    background-color: #ffd3ab;
+    padding-left: 25%;
+    font-size: 24px;
+}
+h3, h2 {
+    text-align: center;
+}
+#tendays {
+    padding-right: 35%;
+}
+article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+  width: ???; /* fill the page in the small/phone view */
+  margin: ???;
+}
+
+.photogrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+fieldset {
+    padding: 20px;
+    margin: 20px;
+}
+
+label {
+    font-size: 20px;
+}
+
+legend {
+    font-size: 30px;
+}
+
+#form {
+    padding: 30px;
+    font-size: 30px;
+}
+footer {
+    display: flex;
+    margin: 0 auto;
+    min-width: 1010px;
+    background-color: #ffeddd;
+    width: 100%;}
+footer aside {}
+footer>p {} /* This structure refers to p elements that are direct children of the footer element */
+
+/*---------home page----------*/
+#home {
+padding: 10px 10px 10px 10px;
+    display: inline-block
+}
+#home article h2{
+    font-size: 3em;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+#home article p {
+    font-size: 1.5em;
+    padding-left: 20px;
+}
+
+#home article ul {
+    padding-left: 20px;
+    font-size: 1.2em;
+    
+}
+span {
+
+}
