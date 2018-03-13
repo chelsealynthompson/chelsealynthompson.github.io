@@ -129,7 +129,19 @@ article p.town-article img {  /* This structure refers to img elements that are 
 /*------gallery page-------*/
 
 
-
+figure {
+    padding: -10px;
+    text-align: center;
+    background-color: #acacac;
+    border: 2px solid #acacac;
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
+}
+figure img {
+    margin: 20px; 
+}
 .photogrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -144,15 +156,17 @@ fieldset {
 
 label {
     font-size: 20px;
+    color: #c57968;
 }
 
 legend {
     font-size: 30px;
+    
+    
 }
 
 #form {
     padding: 30px;
-    font-size: 30px;
     
 }
  /* This structure refers to p elements that are direct children of the footer element */
