@@ -87,11 +87,24 @@ footer>p {}
 /*----franklin page-----*/
 
 main {
+    padding: 10px 10px 10px 10px;
+}
+#cityoffranklin{
+    margin-right: 600px;
+    font-family: serif;
+    font-size: 40px;
+    color: #c57968;
+    background-color: #acacac;
+    border: 2px solid #acacac;
+    border-bottom-right-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
     
 }
 main h2 {}
 main figure { margin: 0 0 .2rem 2%; width:96%; }
-main figure img { width: 100%; }
+main figure img { 
+    width: 100%;
+}
 
 section {
     display: grid;
@@ -99,21 +112,49 @@ section {
     grid-template-rows: 300px;
 }
 .highlow {
-    background-color: #bedbd8;
+    font-size: 20px;
+    background-color: #acacac;
+    border: 2px solid #acacac;
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
     text-align: center;
+    margin: 10px;
 }
 .conditions {
-    background-color: #bedbd8;
+    font-size: 40px;
+    background-color: #acacac;
+    border: 2px solid #acacac;
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
     text-align: center;
+    margin: 10px;
 }
 .current {
-    background-color: #96c3be;
+    font-size: 40px;
+    background-color: #c57968;
+    border: 2px solid #c57968;
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
     text-align: center;
+    margin: 10px;
 }
 .forecast {
-    background-color: #ffd3ab;
     padding-left: 25%;
     font-size: 24px;
+    background-color: #acacac;
+    border: 2px solid #acacac;
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
+    text-align: center;
+    margin: 10px;
 }
 h3, h2 {
     text-align: center;
@@ -128,19 +169,33 @@ article p.town-article img {  /* This structure refers to img elements that are 
 
 /*------gallery page-------*/
 
-
-figure {
-    padding: -10px;
-    text-align: center;
+#gallerytitle {
+      margin-right: 600px;
+    font-family: serif;
+    font-size: 40px;
+    color: #c57968;
     background-color: #acacac;
+    border: 2px solid #acacac;
+    border-bottom-right-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    
+}
+
+.photogrid img {
     border: 2px solid #acacac;
     border-bottom-left-radius: 10px 10px;
     border-bottom-right-radius: 10px 10px;
     border-top-right-radius: 10px 10px;
     border-top-left-radius: 10px 10px;
 }
+
+figure {
+    padding: -10px;
+    text-align: center;
+}
 figure img {
-    margin: 20px; 
+    margin: 20px;
+    
 }
 .photogrid {
     display: grid;
@@ -156,7 +211,6 @@ fieldset {
 
 label {
     font-size: 20px;
-    color: #c57968;
 }
 
 legend {
@@ -180,6 +234,7 @@ padding: 10px 10px 10px 10px;
     
 }
 #home article h2{
+    padding: 10px;
     font-family: serif;
     color: #c57968;
     font-size: 3em;
