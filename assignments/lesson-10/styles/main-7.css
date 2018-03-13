@@ -145,7 +145,6 @@ section {
     margin: 10px;
 }
 .forecast {
-    padding-left: 25%;
     font-size: 24px;
     background-color: #acacac;
     border: 2px solid #acacac;
@@ -159,12 +158,17 @@ section {
 h3, h2 {
     text-align: center;
 }
-#tendays {
-    padding-right: 35%;
+#tendays table{
+    text-align: center;
 }
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
   width: ???; /* fill the page in the small/phone view */
   margin: ???;
+}
+
+.town-article {
+    font-size: 20px;
+    padding: 10px;
 }
 
 /*------gallery page-------*/
