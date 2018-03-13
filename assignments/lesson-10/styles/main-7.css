@@ -90,7 +90,7 @@ main {
     padding: 10px 10px 10px 10px;
 }
 #cityoffranklin{
-    margin-right: 600px;
+    margin-right: 70%;
     font-family: serif;
     font-size: 40px;
     color: #c57968;
@@ -170,7 +170,7 @@ article p.town-article img {  /* This structure refers to img elements that are 
 /*------gallery page-------*/
 
 #gallerytitle {
-      margin-right: 600px;
+    margin-right: 70%;
     font-family: serif;
     font-size: 40px;
     color: #c57968;
