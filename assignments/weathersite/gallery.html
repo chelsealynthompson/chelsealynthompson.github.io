@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <meta name="author" content="Chelsea Thompson">
+    <meta name="description" content="weather for the town of Franklin">   
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">  
+    <link href="styles/normalize.css" rel="stylesheet"> 
+    <link href="styles/main.css" rel="stylesheet">    
+    <link href="styles/medium.css" rel="stylesheet">  
+    <link href="styles/large.css" rel="stylesheet">
+    </head>
+<body>
+    
+    <header>
+        <img src="images/logotrans.png" alt="The site logo" width="200" height="125">
+        <h1>Weather Daily</h1>
+        <div class="subheading">Your Weather. Your Way.</div>
+        </header>
+
+  <!-- site navigation use placeholder references -->
+    <nav>
+            <ul>
+    	       <li><a href="index.html">Home</a></li>
+    	       <li class="active"><a href="franklin-8.html">Franklin</a></li>
+    	       <li><a href="greenville.html">Greenville</a></li>
+    	       <li><a href="springfield.html">Springfield</a></li>
+    	       <li><a href="stormcenter.html">Storm Center</a></li>
+    	       <li><a href="gallery-8.html">Gallery</a></li>
+                </ul>
+        <button onclick="toggleHam()">&#9776;</button>
+         </nav>
+    
+<main class="clearfix">
+        <h2> Photo Gallery</h2>
+        <section class="photogallery">
+            <figure class="image">
+                <img src="images/weather1.jpg" alt="Lightning Storm">
+                <figcaption><strong>Lightning Storm</strong></figcaption>
+            </figure>
+            <figure class="image">
+                <img src="images/weather2.jpg" alt="Winter Snow">
+                <figcaption> <strong>Winter Snow</strong> </figcaption>
+            </figure>
+            <figure class="image">
+                <img src="images/weather3.jpg" alt="Lake Storm<">
+                <figcaption> <strong>Lake Storm</strong></figcaption>
+            </figure>
+            <figure class="image">
+                <img src="images/weather4.jpg" alt="Fog">
+                <figcaption><strong>Fog</strong></figcaption>
+            </figure>
+            <figure class="image">
+                <img src="images/weather5.jpg" alt="Rain Storm">
+                <figcaption> <strong>Rain Storm</strong></figcaption>
+            </figure>
+            <figure class="image">
+                <img src="images/weather6.jpg" alt="Sunny Day">
+                <figcaption> <strong>Sunny Day</strong></figcaption>
+            </figure>
+        </section>
+        
+    </main>      
+  <footer>
+        <aside>
+            Weather Daily <br>
+            1593 Made Up Street <br>
+            Pretend Land, NM <br>
+            10638 <br>
+            (384) 237- 000
+        </aside>
+        <p class="footer-bar">&copy;2018 All Rights Reserved | Weather Daily | <span id="currentdate">Current Date Placeholder</span></p>
+        </footer>
+
+            <script src="scripts/hamburger.js"></script>
+            <script src="scripts/currentdate.js"></script>
+
+</body>
+</html>
