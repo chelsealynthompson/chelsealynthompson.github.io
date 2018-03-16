@@ -49,16 +49,17 @@
         width: 50%;
         float:right;
 }
-    .photogallery{
-         padding: 0 2%;
-         display: grid;
-         grid-template-columns:repeat(2, 50%);        
-}
     #hometownInfo{
         display: grid;
         grid-template-columns:repeat(3, 33%);
         width: fill;
         align-content: center;
 }
-    
+  
+    .photogallery{
+         padding: 0 2%;
+         display: grid;
+         grid-template-columns:repeat(2, 50%);        
+}
+  
     
