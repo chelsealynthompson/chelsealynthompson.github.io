@@ -198,7 +198,7 @@ label textarea {
 /*-----Home Page------*/
 #hometownInfo{
     display: grid;
-    grid-template-columns:repeat(1, 70%);
+    grid-template-columns:repeat(1, 100%);
     width: fill;
     align-content: center;
 }
