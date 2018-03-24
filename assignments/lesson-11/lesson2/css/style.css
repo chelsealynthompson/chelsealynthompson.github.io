@@ -258,12 +258,11 @@ body {
 
 .footer {
 	position:relative;
-	height:30px;
+	height:200px;
 	background:rgba(0, 167, 255, 0.86);
 }
 
 .footer h5 {
-	position: absolute;
 	top: 8px;
 	left: 7px;
 	font-family: 'Raleway', sans-serif;
@@ -272,9 +271,8 @@ body {
 }
 
 .footer a {
-	text-decoration: none;
-	font-weight: normal;
-	color:inherit;
+	font-weight: bold;
+	color:white;
 }
 
 
