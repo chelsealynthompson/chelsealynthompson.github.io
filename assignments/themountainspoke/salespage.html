@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Mountain Spoke | Sales Page</title>
+    <meta name="author" content="Chelsea Thompson">
+    <meta name="description" content="weather for the town of Franklin">   
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">  
+    <link href="styles/normalize.css" rel="stylesheet"> 
+    <link href="styles/small.css" rel="stylesheet">    
+    <link href="styles/medium.css" rel="stylesheet">  
+    <link href="styles/large.css" rel="stylesheet">
+    </head>
+<body>
+    
+    <header>
+        <img src="images/mlogo.png" alt="The site logo" width="250" height="300" id="logo">
+        <h1>The Mountain Spoke</h1>
+        </header>
+
+  <!-- site navigation use placeholder references -->
+    <nav>
+            <ul id="mainmenu">
+    	       <li><a href="index.html">Home</a></li>
+    	       <li class="active"><a href="adventuretours.html">Adventure Tours</a></li>
+    	       <li><a href="eventpage.html">Events</a></li>
+    	       <li><a href="salespage.html">Sales</a></li>
+    	       <li><a href="servicepage.html">Services</a></li>
+    	       <li><a href="contactpage.html">Contact</a></li>
+                </ul>
+        <button onclick="toggleHam()">&#9776;</button>
+         </nav>
+    
+<main class="clearfix">
+        <h2> Photo Gallery</h2>
+        <section class="photogallery">
+            <figure class="image">
+                <img src="images/weather1.jpg" alt="Lightning Storm">
+                <figcaption><strong>Lightning Storm</strong></figcaption>
+            </figure>
+            <figure class="image">
+                <img src="images/weather2.jpg" alt="Winter Snow">
+                <figcaption> <strong>Winter Snow</strong> </figcaption>
+            </figure>
+            <figure class="image">
+                <img src="images/weather3.jpg" alt="Lake Storm<">
+                <figcaption> <strong>Lake Storm</strong></figcaption>
+            </figure>
+            <figure class="image">
+                <img src="images/weather4.jpg" alt="Fog">
+                <figcaption><strong>Fog</strong></figcaption>
+            </figure>
+            <figure class="image">
+                <img src="images/weather5.jpg" alt="Rain Storm">
+                <figcaption> <strong>Rain Storm</strong></figcaption>
+            </figure>
+            <figure class="image">
+                <img src="images/weather6.jpg" alt="Sunny Day">
+                <figcaption> <strong>Sunny Day</strong></figcaption>
+            </figure>
+        </section>
+        
+    </main>      
+  <footer>
+        <aside>
+           The Mountain Spoke <br>
+            1593 Bozeman Street <br>
+            Bozeman, MT <br>
+            59715 <br>
+            (406) 237- 0000
+        </aside>
+        <p class="footer-bar">&copy;2018 All Rights Reserved | The Mountain Spoke | <span id="currentdate">Current Date Placeholder</span></p>
+        </footer>
+
+            <script src="scripts/hamburger.js"></script>
+            <script src="scripts/currentdate.js"></script>
+
+</body>
+       <script>
+        var urlString, urlArray, pageHREF, menu, i, currentURL;
+        urlString = document.location.href;
+        urlArray = urlString.split('/');
+        pageHREF = urlArray[urlArray.length - 1];
+
+        if (pageHREF !== "") {
+            menu = document.querySelectorAll('ul#mainmenu li a');
+            for (i = 0; i < menu.length; i++) {
+                currentURL = (menu[i].getAttribute('href'));
+                menu[i].parentNode.className = '';
+                if (currentURL === pageHREF) {
+                    menu[i].parentNode.className = 'active';
+                }
+            }
+        }
+ </script>
+</html>

@@ -1,0 +1,220 @@
+* { box-sizing: border-box;}
+body {
+    font-size: 16px; 
+    line-height: 30px;
+    font-family: 'Open Sans Condensed',sans-serif;
+    color: white;
+    background-color: black;
+}
+
+header, nav, main, footer { 
+    max-width: fill;
+}
+header {
+    background-color: white; 
+    color: white;
+    margin: 1rem auto;
+    padding: .25rem;  
+    max-width: inherit;
+    text-align: center;
+    word-spacing: normal;
+    line-height:inherit;
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
+}
+
+header h1 {
+    font-family: serif;
+    font-size: 200%;
+    margin: 1rem auto;
+    padding: .2rem;
+    color: #007486; 
+}
+header #logo {
+    display: none;
+    
+}
+
+main {
+    margin: 1rem;
+    padding: 20px;
+}
+main h2{
+    padding:2%;
+}
+.homeimage {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+current ul {
+    list-style-type: none;
+    margin: .2%;
+    padding: 0;
+    overflow: hidden;
+}
+nav button {
+    display:block;
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;  
+    font-size: 1.6rem;
+}
+nav {
+    background-color: transparent;
+    font-family: serif;
+    font-size: 1em;
+    
+}
+nav ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    background-color: #989284;
+    justify-content: space-around;
+    margin: 0;
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
+}
+nav ul li {
+    border-top: none;
+}
+nav ul li a {
+    text-decoration: none;
+    border:none;
+    color: white;
+    padding: 1em;
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
+}
+nav ul li.active a {   
+    background-color: white;
+    color: black;
+}
+nav ul li a:hover {
+    background-color: #007486; 
+    color: white;
+}
+nav ul.hide {
+    display:none;
+}
+.current{
+    display: flex;
+    flex: 1 1 100%;;
+    flex-direction: column;
+    background-color: white;
+    list-style-type:disc;
+    color: #587d83;
+}
+.current.figure{
+    align-self:center;
+}
+.forecast{
+    display: none;
+}
+table {
+    border-collapse:separate ;
+    width: 100%;
+}
+th, td {
+    width:auto;
+    border-collapse:separate ;
+    border: 1px solid black;
+    text-align: center;
+    color: black;
+    background-color: transparent;
+} 
+table td img{
+    width: 30%;
+    height: auto;
+    padding: .25rem;
+}
+article{
+    flex: 1 1 100%;
+    text-align: left;
+    margin: 1rem;
+    padding: 1rem;
+}
+article p.town-article img { 
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5%;
+}
+footer {
+    flex: 1 1 100%;
+    flex-flow:row wrap;
+    text-align: center;
+    background-color: #989284;
+    color: white;
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
+}
+footer aside {
+    flex: 1 1 100%;
+    justify-content:space-around;   
+}
+
+
+/*------- Gallery---------*/
+.photogrid{
+    display: grid;
+     padding: 0 3%;
+     grid-template-columns:repeat(1, 100%);
+    
+}
+.photogrid figure {    
+    margin: 2rem 0;
+}
+.photogrid figure img {    
+    width: 50%;
+}
+.photogrid figure figcaption { 
+    text-align: left;
+}
+
+/*--------Storm Center---------*/
+
+h2{
+    font-size: 2.5rem;
+    font-family: serif;
+    color: white
+}
+
+fieldset{
+    margin:2em;
+    background-color: white;
+   }
+legend{
+    padding: 0 1rem 0 1rem;
+    background-color: #587d83; 
+    color: white;
+    font-size: 2em;
+}
+label{
+    display:block;
+    padding: .5rem;
+}
+.radio {
+    display:inline-block;
+    align-items: center;
+}
+label textarea {
+    width: 100%;
+}
+/*-----Home Page------*/
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
