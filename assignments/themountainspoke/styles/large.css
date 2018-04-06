@@ -50,32 +50,15 @@
 .calltoaction {
     position: absolute;
     top: 90%;
-    left: 20%;
-    background-color: white;
-    width: 20%;
     font-size: 90%;
-    text-align: center;
-    color: white;
-    padding: 1em;
-    border-bottom-left-radius: 10px 10px;
-    border-bottom-right-radius: 10px 10px;
-    border-top-right-radius: 10px 10px;
-    border-top-left-radius: 10px 10px;
     
 }
     .calltoaction2 {
     position: absolute;
     top: 110%;
-    left: 20%;
-    background-color: white;
-    width: 20%;
     font-size: 90%;
-    text-align: center;
-    color: white;
-    padding: 1em;
-    border-bottom-left-radius: 10px 10px;
-    border-bottom-right-radius: 10px 10px;
-    border-top-right-radius: 10px 10px;
-    border-top-left-radius: 10px 10px;
-    
 }
+
+    .tours, .tours2 {
+        font-size: 30px;
+    }

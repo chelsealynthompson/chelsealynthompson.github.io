@@ -25,7 +25,7 @@ header {
     border-top-left-radius: 10px 10px;
 }
 
-header h1 {
+h1 {
     font-family: serif;
     font-size: 200%;
     margin: 1rem auto;
@@ -89,6 +89,23 @@ main h2{
     border-top-left-radius: 10px 10px;
     
 }
+.calltoaction a, .calltoaction2 a {
+    text-decoration: none;
+    border:none;
+    color: #374224;
+    padding: .2em;
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
+}
+a:hover {
+    color: #989284;
+}
+footer a:hover {
+    color: white;
+}
+/*---navigation-----*/
 current ul {
     list-style-type: none;
     margin: .2%;
@@ -221,23 +238,49 @@ footer aside {
     text-align: left;
 }
 
-/*--------Storm Center---------*/
+/*--------Event page---------*/
 
 h2{
     font-size: 2.5rem;
     font-family: serif;
     color: white
 }
-
+h3 {
+    font-size: 3em;
+    text-align: center;
+}
+h4{
+    font-size: 2em;
+}
+#eventp {
+    font-size: 2em;
+}
+.events {
+    background-color: #007486;
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
+    padding: 1rem;
+    
+}
+#toursul li {
+    font-size: 2em;
+}
 fieldset{
     margin:2em;
-    background-color: white;
+    background-color: black;
+    font-size: 1.5em;
    }
 legend{
-    padding: 0 1rem 0 1rem;
-    background-color: #587d83; 
+    padding: 1rem;
+    background-color: #007486; 
     color: white;
     font-size: 2em;
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
 }
 label{
     display:block;
@@ -249,4 +292,33 @@ label{
 }
 label textarea {
     width: 100%;
+}
+
+ /*----Adventure Tours-----*/
+.tours, .tours2 {
+    font-size: 1em;
+    background-color: #989284;
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
+}
+section h2 {
+    text-align: center;
+}
+section p, ul {
+    padding: 2em;
+}
+ /*----Reference page-----*/
+
+.reflinks {
+    background-color: white;
+    height: 8em;
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
+}
+.reflinks p {
+    padding: 2em;
 }

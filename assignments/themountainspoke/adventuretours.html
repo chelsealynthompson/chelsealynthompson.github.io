@@ -29,77 +29,53 @@
     	       <li><a href="servicepage.html">Services</a></li>
     	       <li><a href="contactpage.html">Contact</a></li>
                 </ul>
-        <button onclick="toggleHam()">&#9776;</button>
             </nav>
       <main class="clearfix">
-        <h2>Weather Conditions for <span id="place"> City, State</span></h2>
-        <figure class="bannerimage">
-            <img src="images/franklin.jpg" alt="franklin" sizes = "100vw"
-            srcset="images/franklin500.jpg 500w,
-            images/franklin800.jpg 800w,
-            images/franklin1200.jpg 1200w">
-        </figure>
-        <section class="clearfix"> 
-            <div class= "weatherSummary">
-                <h2>Weather Summary</h2>
-                <figure><img src="imges/sunnyy.png" alt="current weather" id = "weather_icon"></figure>
-            </div>
-                <ul id="currentForecast" class="current">                    
-        
-                    <li>Current Temperature is <strong><span id="currentTemp"> 120</span>&deg;</strong></li>
-                    <li>Currently it is: <strong><span id="weather"></span></strong> </li>
-                    <li>High:<strong><span id="high"></span>&deg;F</strong></li>
-                    <li>Low:<strong><span id="low"></span>&deg;F</strong></li>    
-                    <li>Precipitation:<strong><span id="precip"></span> inches</strong> </li>
-                    <li>Wind Speed:<strong><span id="winddir"></span>  <span id="wind"></span></strong> </li>
-                    <li> Wind Chill: <strong ><span id="windchill"></span>&deg;</strong> </li>
-                </ul>
-        </section>
-        <section class="forecast">
-            <table class="clearfix">
-            <thead>
-                <tr>
-                    <td colspan ="10">
-                    <h2>10 Day Forecast</h2>
-                    </td>
-                </tr>
-                <tr>
-                    <th>Day 1</th>
-                    <th>Day 2</th>
-                    <th>Day 3</th>
-                    <th>Day 4</th>
-                    <th>Day 5</th>
-                    <th>Day 6</th>
-                    <th>Day 7</th>
-                    <th>Day 8</th>
-                    <th>Day 9</th>
-                    <th>Day 10</th>
-                </tr>
-            </thead>
-            <tbody>  
-                <tr>
-                    <td><img src="imges/sunnyy.png" alt="day 1 weather" id = "weathericon0"> <br>High <span id="high0">&deg;F </span><br>Low <span id="low0">&deg;F </span></td>
-                    <td><img src="imges/sunnyy.png" alt="day 2 weather" id = "weathericon1"> <br>High <span id="high1">&deg;F </span><br>Low <span id="low1">&deg;F </span></td>
-                    <td><img src="imges/sunnyy.png" alt="day 3 weather" id = "weathericon2"> <br>High <span id="high2">&deg;F </span><br>Low <span id="low2">&deg;F </span></td>
-                    <td><img src="imges/sunnyy.png" alt="day 4 weather" id = "weathericon3"> <br>High <span id="high3">&deg;F </span><br>Low <span id="low3">&deg;F </span></td>
-                    <td><img src="imges/sunnyy.png" alt="day 5 weather" id = "weathericon4"> <br>High <span id="high4">&deg;F </span><br>Low <span id="low4">&deg;F </span></td>
-                    <td><img src="imges/sunnyy.png" alt="day 6 weather" id = "weathericon5"> <br>High <span id="high5">&deg;F </span><br>Low <span id="low5">&deg;F </span></td>
-                    <td><img src="imges/sunnyy.png" alt="day 7 weather" id = "weathericon6"> <br>High <span id="high6">&deg;F </span><br>Low <span id="low6">&deg;F </span></td>
-                    <td><img src="imges/sunnyy.png" alt="day 8 weather" id = "weathericon7"> <br>High <span id="high7">&deg;F </span><br>Low <span id="low7">&deg;F </span></td>
-                    <td><img src="imges/sunnyy.png" alt="day 9 weather" id = "weathericon8"> <br>High <span id="high8">&deg;F </span><br>Low <span id="low8">&deg;F </span></td>
-                    <td><img src="imges/sunnyy.png" alt="day 10 weather" id = "weathericon9"> <br>High <span id="high9">&deg;F </span><br>Low <span id="low9">&deg;F </span></td>
-                </tr>
-            </tbody>
-            </table>
-        </section>
-
-    <article>
-            <h2 id="articletitle">Franklin Breaks Record</h2>	
-            <p class="town-article">
-                <img src="images/park-opt.jpg" alt="" width="300" height="300">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
-                </p>
-		</article>		  
+        <h1>Adventure Tours</h1>
+          <div class="tours">
+          <section>
+              <h2>Montana High Country</h2>
+              <img src="images/1adventure.jpg" alt="bike" sizes = "95vw"
+            srcset="images/1adventure400.jpg 400w,
+            images/1adventure800.jpg 800w,
+            images/1adventure1200.jpg 1200w">
+              <p>Enjoy the views that earned Montana its "Big Sky" nickname. Pedal through sacred native ground as you tackle the Continental Divide on Chief Joseph Pass. Soak up plenty of Lewis & Clark history, including the headwaters of the Missouri River. Ride the gorgeous Pioneer Mountains Scenic Byway through the ghost towns and abandoned mines of the Pioneer Mountain Range. Recharge in beautifully scenic lodges as you experience genuine Montana country along the eastern edge of the Rocky Mountain Range. </p>
+              <ul>
+                  <h2>Trip Details</h2>
+              <li>Days: 6 days - Sunday to Friday</li>
+              <li>Levels: Intermediate to Advanced</li>
+              <li>Meals: All breakfasts, 5 lunches, 4 dinners</li>
+              <li>Daily Mileage: Average: 50 miles/day</li>
+              <li>Start/Finish: Helena, Montana</li>
+              <li>2018 Departures: August 26. September 2.</li>
+              <li>Price: $2,352</li>
+              </ul>
+              </section>
+            <section>
+              </section>
+          </div>
+          <div class="tours2">
+          <section>
+              <h2>Glacier National Park, Montana and Waterton National Park, Canada</h2>
+              <img src="images/2adventure.jpg" alt="bike" sizes = "95vw"
+            srcset="images/2adventure400.jpg 400w,
+            images/2adventure800.jpg 800w,
+            images/2adventure1200.jpg 1200w">
+              <p>Glacier Ride is a 6-day charitable cycling event spanning two spectacular national parks and two countries — Glacier National Park on the U.S. side and Waterton National Park on the Canadian side. Glacier National Park captures the essence of what the pristine, undisturbed Rocky Mountain region has been like over thousands of years. This bike ride explores some of the wildest land in the lower 48 and an ecosystem threatened by development, climate change, and exotic species. By fundraising and participating in Glacier Ride, you are raising awareness of the issues facing Glacier and seeing first-hand what is at stake. Special guests on the ride include the Glacier National Park and Waterton Park Superintendents, as well as field experts and park rangers. This charitable trip includes cycling (with daily routes to accommodate your cycling ability), rafting, and hiking options. </p>
+                <ul>
+                    <h2>Trip Details</h2>
+              <li>Days: 6days July 17-22, 2018</li>
+              <li>Levels: Intermediate to Advanced</li>
+              <li>Activity: 4 days cycling + 1 rest day + 1/2 day rafting</li>
+              <li>Total Mileage: 178 to 273, with multiple daily mileage options</li>
+              <li>Start/Finish: West Glacier, MT</li>
+              <li>Maximum Group Size: 50 people</li>
+              <li>Price: $3,200</li>
+              </ul>
+              </section>
+            <section>
+              </section>
+          </div>
     </main>
   <footer>
         <aside>
@@ -108,15 +84,14 @@
             Bozeman, MT <br>
             59715 <br>
             (406) 237- 0000
+            <br>
+            <a href="references.html">References</a>
         </aside>
         <p class="footer-bar">&copy;2018 All Rights Reserved | The Mountain Spoke | <span id="currentdate">Current Date Placeholder</span></p>
         </footer>
 
             <script src="scripts/currentdate.js"></script>
-    <script src="scripts/scripts.js"></script>
-          
-    </body>
-    <script>
+           <script>
         var urlString, urlArray, pageHREF, menu, i, currentURL;
         urlString = document.location.href;
         urlArray = urlString.split('/');
@@ -133,5 +108,7 @@
             }
         }
  </script>
+    </body>
+ 
     
 </html>
