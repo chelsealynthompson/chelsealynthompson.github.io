@@ -112,13 +112,7 @@ current ul {
     padding: 0;
     overflow: hidden;
 }
-nav button {
-    display:block;
-    margin: .2rem 2%;
-    background-color: transparent;
-    border: none;  
-    font-size: 1.6rem;
-}
+
 nav {
     background-color: transparent;
     font-family: serif;
@@ -308,6 +302,9 @@ section h2 {
 }
 section p, ul {
     padding: 2em;
+}
+#img1, #img2 {
+    width: 100%;
 }
  /*----Reference page-----*/
 
