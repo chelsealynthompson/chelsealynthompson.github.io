@@ -62,3 +62,7 @@
     .tours, .tours2 {
         font-size: 30px;
     }
+    
+nav ul li {
+    padding: 0;
+}

@@ -133,7 +133,7 @@ nav ul {
     border-top-left-radius: 10px 10px;
 }
 nav ul li {
-    border-top: none;
+    padding: 1%;
 }
 nav ul li a {
     text-decoration: none;
