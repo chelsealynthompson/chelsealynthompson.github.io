@@ -15,25 +15,7 @@
     color:#ec9d80; 
 }
     
-    nav button {
-        display:none;
-}
-    nav ul.hide {
-       display: flex;
-}
-    nav ul {
-        flex-flow: row nowrap;
-        list-style-type: none;
-}
-    nav ul li {
-        border: none;
-        text-align: center;
-        padding: 2%;   
-        border-collapse:separate;
-}
-    nav ul li a{
-        border: none;
-}
+
     section.forecast { 
         display: flex; 
         flex-flow: row nowrap; 
@@ -70,6 +52,6 @@
     .tours, .tours2 {
         font-size: 30px;
     }
-nav ul li {
-    padding: 0;
-}
+
+/*-----top navigation-------*/
+
