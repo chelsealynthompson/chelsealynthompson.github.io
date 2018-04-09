@@ -48,5 +48,18 @@
 /*-----top navigation-------*/
 
 
-
+/*------contact page------*/
+    #welovetohear{
+    text-align: center;
+    font-size: 3em;
+}
+#phonenumber {
+    text-align: center;
+    font-size: 3em;
+    
+}
+#email {
+     text-align: center;
+    font-size: 3em;
+}
 

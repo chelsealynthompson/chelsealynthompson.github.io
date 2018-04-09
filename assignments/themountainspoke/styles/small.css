@@ -314,3 +314,21 @@ section p, ul {
 .reflinks p {
     padding: 2em;
 }
+/*---contact-----*/
+#welovetohear{
+    text-align: center;
+    font-size: 2em;
+}
+#phonenumber {
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+#email {
+     text-align: center;
+    font-size: 1.5em;
+}
+.map {
+    text-align: center;
+    width: 100%;
+}
