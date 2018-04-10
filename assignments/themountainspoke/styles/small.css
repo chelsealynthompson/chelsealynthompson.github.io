@@ -307,7 +307,7 @@ section p, ul {
 
 .reflinks {
     background-color: white;
-    height: 8em;
+    height: 10em;
     border-bottom-left-radius: 10px 10px;
     border-bottom-right-radius: 10px 10px;
     border-top-right-radius: 10px 10px;
@@ -356,4 +356,32 @@ section p, ul {
     display: none;
     background-color: black;
     overflow: hidden;
+}
+/*-----service page------*/
+table {
+    text-align: center;
+    font-family: 'Uduntu', sans-serif;
+    border: .01px solid #e7ffed;
+    box-shadow: 10px 10px 10px #7fb9c2;
+}
+.top {
+    font-size: 25px;
+    background-color: #7fb9c2;
+    margin:0;
+}
+.bottom {
+    font-size: 10px;
+    background-color: #7fb9c2;
+}
+.darkblue, #dark {
+    background-color: #628ca6;
+    color: white;
+}
+.data {
+    background-color: #e7f0ed;
+    
+}
+th, td {
+    border: .01px solid #e7ffed;
+    padding: 8px;
 }

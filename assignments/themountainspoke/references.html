@@ -18,16 +18,19 @@
         <img src="images/mlogo.png" alt="The site logo" width="250" height="300" id="logo">
         <h1>The Mountain Spoke</h1>
         </header>
-    <nav>
-            <ul id="mainmenu">
-    	       <li><a href="index.html">Home</a></li>
-    	       <li class="active"><a href="adventuretours.html">Adventure Tours</a></li>
-    	       <li><a href="eventpage.html">Events</a></li>
-    	       <li><a href="salespage.html">Sales</a></li>
-    	       <li><a href="servicepage.html">Services</a></li>
-    	       <li><a href="contactpage.html">Contact</a></li>
-                </ul>
-            </nav>
+      <nav>
+            
+            <div class="topnav" id="myTopnav">
+    	       <a class="active" href="index.html">Home</a>
+    	       <a href="adventuretours.html">Adventure Tours</a>
+    	       <a href="eventpage.html">Events</a>
+    	       <a href="salespage.html">Sales</a>
+    	       <a href="servicepage.html">Services</a>
+    	       <a href="contactpage.html">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                    
+                </div>
+    </nav>
      <main>
     <h2>References </h2>
          <div class="reflinks">
@@ -45,7 +48,7 @@
      <footer>
         <aside>
             The Mountain Spoke <br>
-            1593 Bozeman Street <br>
+            3950 Valley Commons Drive <br>
             Bozeman, MT <br>
             59715 <br>
             (406) 237- 0000
@@ -54,22 +57,16 @@
         </aside>
         <p class="footer-bar">&copy;2018 All Rights Reserved | The Mountain Spoke | <span id="currentdate">Current Date Placeholder</span></p>
         </footer>
-     <script>
-        var urlString, urlArray, pageHREF, menu, i, currentURL;
-        urlString = document.location.href;
-        urlArray = urlString.split('/');
-        pageHREF = urlArray[urlArray.length - 1];
-
-        if (pageHREF !== "") {
-            menu = document.querySelectorAll('ul#mainmenu li a');
-            for (i = 0; i < menu.length; i++) {
-                currentURL = (menu[i].getAttribute('href'));
-                menu[i].parentNode.className = '';
-                if (currentURL === pageHREF) {
-                    menu[i].parentNode.className = 'active';
-                }
-            }
-        }
+   <script>
+   
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+} 
  </script>
     </body>
 </html>
