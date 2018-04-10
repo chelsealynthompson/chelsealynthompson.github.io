@@ -210,22 +210,6 @@ footer aside {
     justify-content:space-around;   
 }
 
-/*------- Gallery---------*/
-.photogrid{
-    display: grid;
-     padding: 0 3%;
-     grid-template-columns:repeat(1, 100%);
-    
-}
-.photogrid figure {    
-    margin: 2rem 0;
-}
-.photogrid figure img {    
-    width: 50%;
-}
-.photogrid figure figcaption { 
-    text-align: left;
-}
 
 /*--------Event page---------*/
 
@@ -255,7 +239,7 @@ h4{
     padding: 1rem;
     
 }
-#toursul li {
+#toursul, #toursul2 li {
     font-size: 2em;
 }
 fieldset{
