@@ -1,8 +1,6 @@
-{
-"name": "The Mountain Spoke"
-"place": "Montana"
-"service": [
+
     {
+ 
         "name": "Tune-up"
         "price": "$79.00"
     },
@@ -14,5 +12,9 @@
         "name": "Bike Assembly"
         "price": "$85.00"
     }
-    ]
-}
+    
+
+
+
+
+

@@ -36,7 +36,7 @@
   <table>
     <thead class="top">
         <tr>
-            <td colspan="3">Services</td>
+            <td colspan="3">Services we Offer</td>
             </tr>
         </thead>
     <thead class="darkblue">
@@ -48,16 +48,16 @@
     
     <tbody class="data">
         <tr>
-            <td></td>
-            <td>$3,590</td>
+            <td><span id="servone"> service </span></td>
+            <td><span id="priceone">$</span></td>
             </tr>
         <tr>
-            <td>September</td>
-            <td>$4,420</td>
+            <td><span id="servtwo"> service </span></td>
+            <td><span id="pricetwo">$</span></td>
             </tr>
         <tr>
-            <td>October</td>
-            <td>$4,870</td>
+            <td><span id="servthree"> service </span></td>
+            <td><span id="pricethree">$</span></td>
             </tr>
   </tbody>
 </table>
@@ -86,12 +86,48 @@
         x.className = "topnav";
     }
 }
-        
-        
-        
-    
-        
+           
  </script>
+
+    
+    
+    
+
+
+
+    
+<script>
+var text = '{ "services" : [' +
+'{ "serviceName":"Tune-Up" , "priceAmount":"$79.00" },' +
+'{ "serviceName":"Overhaul" , "priceAmount":"$250.00" },' +
+'{ "serviceName":"Bike Assembly" , "priceAmount":"$85.00" } ]}';
+
+obj = JSON.parse(text);
+document.getElementById("servone").innerHTML =
+obj.services[0].serviceName;
+    
+obj = JSON.parse(text);
+document.getElementById("servtwo").innerHTML =
+obj.services[1].serviceName;
+
+obj = JSON.parse(text);
+document.getElementById("servthree").innerHTML =
+obj.services[2].serviceName;
+ 
+obj = JSON.parse(text);
+document.getElementById("priceone").innerHTML =
+obj.services[0].priceAmount;
+    
+obj = JSON.parse(text);
+document.getElementById("pricetwo").innerHTML =
+obj.services[1].priceAmount;
+    
+obj = JSON.parse(text);
+document.getElementById("pricethree").innerHTML =
+obj.services[2].priceAmount;
+
+</script>
+
 
 </body>
     
