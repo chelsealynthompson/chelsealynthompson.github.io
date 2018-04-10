@@ -33,39 +33,54 @@
                 </div>
     </nav>
 <main class="clearfix">
-        <h2> Photo Gallery</h2>
-        <section class="photogallery">
-            <figure class="image">
-                <img src="images/weather1.jpg" alt="Lightning Storm">
-                <figcaption><strong>Lightning Storm</strong></figcaption>
-            </figure>
-            <figure class="image">
-                <img src="images/weather2.jpg" alt="Winter Snow">
-                <figcaption> <strong>Winter Snow</strong> </figcaption>
-            </figure>
-            <figure class="image">
-                <img src="images/weather3.jpg" alt="Lake Storm<">
-                <figcaption> <strong>Lake Storm</strong></figcaption>
-            </figure>
-            <figure class="image">
-                <img src="images/weather4.jpg" alt="Fog">
-                <figcaption><strong>Fog</strong></figcaption>
-            </figure>
-            <figure class="image">
-                <img src="images/weather5.jpg" alt="Rain Storm">
-                <figcaption> <strong>Rain Storm</strong></figcaption>
-            </figure>
-            <figure class="image">
-                <img src="images/weather6.jpg" alt="Sunny Day">
-                <figcaption> <strong>Sunny Day</strong></figcaption>
-            </figure>
-        </section>
+        <h2>Sales</h2>
+
+<button class="accordion">
+Kona Hei Hei Trail Bike 2017</button>
+<div class="panel">
+      <figure class="bikes">
+            <img id="homeimg" src="images/bike1.png" alt="bike" sizes = "95vw"
+            srcset="images/1bike1200.jpg 500w,
+            images/1bike800.jpg 800w,
+            images/1bike1200.jpg 1200w">
+            
+        </figure>
+    <h3>$2,799.99</h3>
+  <p>The Kona Race Light Carbon is lightweight, but strong as all get out. You will never feel like you need to tip toe around while you’re riding the Hei Hei. The Kona Fuse suspension platform with Fox Perfoamnce Float DPS rear shock provides efficient pedaling while remaining plush through the chatter, and then really starts to shine as the bumps get bigger. The 140mm Fox suspension up front will smooth out the roots, and gobble up gnarly rock gardens. The Shimano drivetrain will provide you with smooth and reliable shifting. 27.5 wheels are big enough to supply that roll over anything feeling while remaining nimble through tight switchbacks and technical sections. Keeping it all under control are Shimano’s workhorse SLX disc brakes. sorce: http://www.jensonusa.com/Kona-Hei-Hei-Trail-Bike-2017</p>
+</div>
+
+<button class="accordion">Diamondback Mission 1.0 Bike 2017</button>
+<div class="panel">
+      <figure class="bikes">
+            <img id="homeimg" src="images/bike2.png" alt="bike" sizes = "95vw"
+            srcset="images/2bike400.jpg 400w,
+            images/2bike800.jpg 800w,
+            images/2bike1200.jpg 1200w">
+            
+        </figure> 
+    <h3>$1,599.00</h3>
+  <p>Crushing it downhill is one thing, but the aspiring enduro racer needs to be able to climb efficiently too. Not a problem for the Mission 1! The Fox CTD equipped Knucklebox Migration suspension design reduces pedal induced motion without compromising small bump compliance, delivering you to the top efficiently and comfortably so you have more energy for another rip back down. With 27.5" wheels, you retain the snappy handling of 26" wheels combined with the added obstacle clearance and acceleration typical of the 29er platform. Get on board, this ride is taking off and you don't want to be left behind! source: http://www.jensonusa.com/Diamondback-Mission-10-Bike-2017</p>
+</div>
+
+<button class="accordion">
+Ibis Ripmo X01 Eagle 942 Logo Bike</button>
+<div class="panel">
+      <figure class="bikes">
+            <img id="homeimg" src="images/bike3.png" alt="bike" sizes = "95vw"
+            srcset="images/3bike400.jpg 400w,
+            images/3bike800.jpg 800w,
+            images/3bike1200.jpg 1200w">
+            
+        </figure> 
+    <h3>$7,899.00</h3>
+  <p>The Ibis Ripley and the Mojo have had a child, and it is the Ripmo. The Ripmo is a big wheeled, long travel bike that is always ready for a big climb or big descent. It has a sub six-pound carbon frame with 145mm of rear travel, 160mm of front travel, and uses a highly versatile DW-link. The frame's geometry is nearly an inch longer than the HD4 and has clearance for a 170mm dropper post. The frame has clearance for up to a 2.6" tire, short chainstays, a threaded bottom bracket, in-frame molded internal cable routing, and the ability to run both a rear shock and large water bottle. sorce: http://www.jensonusa.com/Ibis-Ripmo-X01-Eagle-942-Logo-Bike</p>
+</div>
         
     </main>      
   <footer>
         <aside>
            The Mountain Spoke <br>
-            1593 Bozeman Street <br>
+            3950 Valley Commons Drive  <br>
             Bozeman, MT <br>
             59715 <br>
             (406) 237- 0000 <br>
@@ -87,6 +102,21 @@
     } else {
         x.className = "topnav";
     }
+}
+          
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
 }
  </script>
 </html>
