@@ -361,20 +361,20 @@ section p, ul {
 table {
     text-align: center;
     font-family: 'Uduntu', sans-serif;
-    border: .01px solid #e7ffed;
+    border: 1px solid black;
     
 }
 .top {
     font-size: 25px;
-    background-color: #7fb9c2;
+    background-color: #007486;
     margin:0;
 }
 .darkblue, #dark {
-    background-color: #628ca6;
+    background-color: #ccc;
     color: white;
 }
 .data {
-    background-color: #e7f0ed;
+    background-color: white;
     
 }
 th, td {
